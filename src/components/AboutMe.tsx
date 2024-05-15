@@ -53,8 +53,8 @@ const AboutMe: React.FC = () => {
 
             <h2 className='text-[--black] text-center max-lg:text-left break-words'>
               {language === 'FR'
-                ? aboutMeData.description
-                : aboutMeData.description_EN}
+                ? aboutMeData.description_FR
+                : aboutMeData.description}
             </h2>
           </motion.div>
         </div>
